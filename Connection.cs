@@ -24,6 +24,7 @@ namespace AutoConsole
 
             ConnectionString = "SERVER=" + Host + ";DATABASE=" + Database + ";UID=" + User + ";PASSWORD=" + Password + ";SslMode=None";
 
+            connection = new MySqlConnection(ConnectionString);
         }
     }
 }
